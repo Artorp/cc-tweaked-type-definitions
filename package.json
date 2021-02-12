@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Artorp/cc-tweaked-type-definitions/issues"
   },
-  "homepage": "https://github.com/Artorp/cc-tweaked-type-definitions#readme"
+  "homepage": "https://github.com/Artorp/cc-tweaked-type-definitions#readme",
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
 }
