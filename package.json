@@ -5,6 +5,7 @@
   "main": "declarations/index.d.ts",
   "types": "declarations/index.d.ts",
   "scripts": {
+    "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/Artorp/cc-tweaked-type-definitions#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.20.0",
     "typescript": "^4.1.5",
     "typescript-to-lua": "^0.38.0"
   }

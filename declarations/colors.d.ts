@@ -9,7 +9,7 @@ declare namespace colors {
      * @RGB 240, 240, 240
      * @GrayValue 0xF0
      */
-    var white: 0x1
+    let white: 0x1;
     /**
      * Orange: 2
      * _____________________
@@ -20,7 +20,7 @@ declare namespace colors {
      * @RGB 242, 178, 51
      * @GrayValue 0x9D
      */
-    var orange: 0x2
+    let orange: 0x2;
     /**
      * Magenta: 4
      * _____________________
@@ -31,7 +31,7 @@ declare namespace colors {
      * @RGB 229, 127, 216
      * @GrayValue 0xBE
      */
-    var magenta: 0x4
+    let magenta: 0x4;
     /**
      * LightBlue: 8
      * _____________________
@@ -42,7 +42,7 @@ declare namespace colors {
      * @RGB 153, 178, 242
      * @GrayValue 0xBF
      */
-    var lightBlue: 0x8
+    let lightBlue: 0x8;
     /**
      * Yellow: 16
      * _____________________
@@ -53,7 +53,7 @@ declare namespace colors {
      * @RGB 222, 222, 108
      * @GrayValue 0xB8
      */
-    var yellow: 0x10
+    let yellow: 0x10;
     /**
      * Lime: 32
      * _____________________
@@ -64,7 +64,7 @@ declare namespace colors {
      * @RGB 127, 204, 25
      * @GrayValue 0x76
      */
-    var lime: 0x20
+    let lime: 0x20;
     /**
      * Pink: 64
      * _____________________
@@ -75,7 +75,7 @@ declare namespace colors {
      * @RGB 242, 178, 204
      * @GrayValue 0xD0
      */
-    var pink: 0x40
+    let pink: 0x40;
     /**
      * Gray: 128
      * _____________________
@@ -86,7 +86,7 @@ declare namespace colors {
      * @RGB >76, 76, 76
      * @GrayValue 0x4C
      */
-    var gray: 0x80
+    let gray: 0x80;
     /**
      * LightGray: 256
      * _____________________
@@ -97,7 +97,7 @@ declare namespace colors {
      * @RGB 153, 153, 153
      * @GrayValue 0x99
      */
-    var lightGray: 0x100
+    let lightGray: 0x100;
     /**
      * Cyan: 512
      * _____________________
@@ -108,7 +108,7 @@ declare namespace colors {
      * @RGB >76, 153, 178
      * @GrayValue 0x87
      */
-    var cyan: 0x200
+    let cyan: 0x200;
     /**
      * Purple: 1024
      * _____________________
@@ -119,7 +119,7 @@ declare namespace colors {
      * @RGB 178, 102, 229
      * @GrayValue 0xA9
      */
-    var purple: 0x400
+    let purple: 0x400;
     /**
      * Blue: 2048
      * _____________________
@@ -130,7 +130,7 @@ declare namespace colors {
      * @RGB >51, 102, 204
      * @GrayValue 0x77
      */
-    var blue: 0x800
+    let blue: 0x800;
     /**
      * Brown: 4096
      * _____________________
@@ -141,7 +141,7 @@ declare namespace colors {
      * @RGB 127, 102, 76
      * @GrayValue 0x65
      */
-    var brown: 0x1000
+    let brown: 0x1000;
     /**
      * Green: 8192
      * _____________________
@@ -152,7 +152,7 @@ declare namespace colors {
      * @RGB >87, 166, 78
      * @GrayValue 0x6E
      */
-    var green: 0x2000
+    let green: 0x2000;
     /**
      * Red: 16384
      * _____________________
@@ -163,7 +163,7 @@ declare namespace colors {
      * @RGB 204, 76, 76
      * @GrayValue 0x76
      */
-    var red: 0x4000
+    let red: 0x4000;
     /**
      * Black: 32768
      * _____________________
@@ -174,7 +174,7 @@ declare namespace colors {
      * @RGB >17, 17, 17
      * @GrayValue 0x11
      */
-    var black: 0x8000
+    let black: 0x8000;
 
     /** A phantom type to ease the use of colors */
     type Color = 0x1 | 0x2 | 0x4 | 0x8 | 0x10 | 0x20 | 0x40 | 0x80 | 0x100 | 0x200 | 0x400 | 0x800 | 0x1000 | 0x2000 | 0x4000 | 0x8000

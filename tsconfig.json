@@ -3,6 +3,7 @@
     "declaration": true,
     "module": "commonjs",
     "strict": true,
+    "skipLibCheck": true,
     "removeComments": false,
     "preserveConstEnums": true,
     "target": "es5",
@@ -14,8 +15,7 @@
       "./node_modules/@types"
     ]
   },
-  "main": "declarations/index.d.ts",
   "include": [
-    "declarations/**/*.d.ts"
+    "declarations/**/*"
   ]
 }

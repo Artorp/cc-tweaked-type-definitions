@@ -124,7 +124,7 @@ include standard Lua functions.
     -- For example, `ComputerCraft 1.93.0 (Minecraft 1.15.2)`.
     -- @usage _HOST
     */
-    declare const _HOST: string
+    declare const _HOST: string;
 
     /**
     --[[- The default computer settings as defined in the ComputerCraft
@@ -140,6 +140,6 @@ include standard Lua functions.
     @usage _CC_DEFAULT_SETTINGS
     ]]
     */
-    declare const _CC_DEFAULT_SETTINGS: string
+    declare const _CC_DEFAULT_SETTINGS: string;
 
 // }

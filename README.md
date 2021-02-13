@@ -42,6 +42,7 @@ Create your tsconfig.json to point to the types provided by the packages, for in
       "cc-tweaked-type-definitions"
     ],
     "strict": true,
+    "skipLibCheck": true,
     "rootDir": "./src",
     "outDir": "./dist"
   },
@@ -57,6 +58,12 @@ Create your tsconfig.json to point to the types provided by the packages, for in
 Create your initial source file under `src/main.ts` and build with `npx tstl`.
 
 See TypeScriptToLua documentation for details around transpilation.
+
+# Linting
+
+We use ESLint for linting, was setup using the following guide: https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md
+
+And some additional rules defined in .eslintrc.js
 
 # Attribution
 

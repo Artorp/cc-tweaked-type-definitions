@@ -370,7 +370,7 @@ declare class Redirect {
     native(): Redirect
 }
 
-declare const term: Redirect
+declare const term: Redirect;
 
 // term.blit
 // term.clear
