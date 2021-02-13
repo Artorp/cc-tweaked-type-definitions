@@ -299,7 +299,7 @@ declare namespace colors {
     function rgb8(r: number, g: number, b: number): [number, ...UnpackedRGB]
 
     /** Phantom Type for all the minecraft colors */
-    type MinecraftColor = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 'a' | 'b' | 'c' | 'd' | 'f'
+    type MinecraftColor = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "a" | "b" | "c" | "d" | "f"
 
     /**
      * Converts the given color to a paint/blit hex character (0-9a-f).

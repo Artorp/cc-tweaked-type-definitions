@@ -71,7 +71,7 @@ declare namespace turtle {
      * @return[1] boolean Whether a block was broken.
      * @return[2] string | nil The reason no block was broken.
      */
-    function dig(side?: 'left' | 'right'): [boolean, string | null]
+    function dig(side?: "left" | "right"): [boolean, string | null]
 
     /**
      * Attempt to break the block above the turtle. See {@link #getBackgroundColour() dig} for full details.
@@ -81,7 +81,7 @@ declare namespace turtle {
      * @return[1] boolean Whether a block was broken.
      * @return[2] string | nil The reason no block was broken.
      */
-    function digUp(side?: 'left' | 'right'): [boolean, string | null]
+    function digUp(side?: "left" | "right"): [boolean, string | null]
 
     /**
      * Attempt to break the block below the turtle. See {@link #getBackgroundColour() dig} for full details.
@@ -91,7 +91,7 @@ declare namespace turtle {
      * @return[1] boolean Whether a block was broken.
      * @return[2] string | nil The reason no block was broken.
      */
-    function digDown(side?: 'left' | 'right'): [boolean, string | null]
+    function digDown(side?: "left" | "right"): [boolean, string | null]
 
     /**
      * Place a block or item into the world in front of the turtle.
@@ -235,7 +235,7 @@ declare namespace turtle {
      * @return[1] boolean Whether an entity was attacked.
      * @return[2] string | nil The reason nothing was attacked.
      */
-    function attack(side?: 'left' | 'right'): [boolean, string | null]
+    function attack(side?: "left" | "right"): [boolean, string | null]
 
     /**
      * Attack the entity above the turtle.
@@ -245,7 +245,7 @@ declare namespace turtle {
      * @return[1] boolean Whether an entity was attacked.
      * @return[2] string | nil The reason nothing was attacked.
      */
-    function attackUp(side?: 'left' | 'right'): [boolean, string | null]
+    function attackUp(side?: "left" | "right"): [boolean, string | null]
 
     /**
      * Attack the entity below the turtle.
@@ -255,7 +255,7 @@ declare namespace turtle {
      * @return[1] boolean Whether an entity was attacked.
      * @return[2] string | nil The reason nothing was attacked.
      */
-    function attackDown(side?: 'left' | 'right'): [boolean, string | null]
+    function attackDown(side?: "left" | "right"): [boolean, string | null]
 
     /**
      * Suck an item from the inventory in front of the turtle, or from an item floating in the world.
