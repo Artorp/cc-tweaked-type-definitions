@@ -30,5 +30,5 @@ declare namespace peripheral {
      * @param filter A filter function, takes a peripheral name
      *               and wrapped table and returns if it should be included in the result.
      */
-    function find(type: string, filter?: (name: string, wrapped: WrappedPeripheral) => boolean): WrappedPeripheral | null
+    function find(type: string, filter?: (name: string, wrapped: WrappedPeripheral) => boolean): WrappedPeripheral | WrappedPeripheral[] | null
 }
